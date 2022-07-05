@@ -1,7 +1,7 @@
-import { black, colorsPalette, grays, text, white } from '@dana-foundations';
+import { black, grays, text, white } from '@dana-foundations';
 import { Theme } from '@dana-theme';
 
-export const tealPalette: Theme = {
+export const tealPalette: Partial<Theme> = {
     name: 'teal',
     color: 'rgb(48, 144, 142)',
     hover: 'rgb(44, 122, 123)',

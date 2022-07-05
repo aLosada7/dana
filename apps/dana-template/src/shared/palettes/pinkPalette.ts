@@ -1,7 +1,7 @@
 import { black, grays, text, white } from '@dana-foundations';
 import { Theme } from '@dana-theme';
 
-export const pinkPalette: Theme = {
+export const pinkPalette: Partial<Theme> = {
     name: 'pink',
     color: 'rgb(244, 63, 94)',
     hover: 'rgb(115, 112, 124)',
