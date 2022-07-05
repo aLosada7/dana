@@ -10,6 +10,9 @@ const AuthenticationSignInPage = React.lazy(
 const ScoreboardPage = React.lazy(
     () => import('../../app/scoreboard/pages/ScoreboardPage')
 );
+const FlightStatusPage = React.lazy(
+    () => import('../../app/flightStatus/pages/FlightStatusPage')
+);
 
 export default () => {
     return (
@@ -29,6 +32,10 @@ export default () => {
                     <Route
                         path="/templates/game-summary"
                         element={<ScoreboardPage />}
+                    />
+                    <Route
+                        path="/templates/flight-status"
+                        element={<FlightStatusPage />}
                     />
                 </Route>
             </Routes>
