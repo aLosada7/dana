@@ -10,7 +10,7 @@ const ScoreboardContainer = React.lazy(
     () => import('../containers/ScoreboardContainer')
 );
 
-export const ScoreboardPage = () => {
+const ScoreboardPage = () => {
     const [teamSelected, setTeamSelected] = useState('canada');
 
     const onChange = (tabKey: string) => {
@@ -34,3 +34,5 @@ export const ScoreboardPage = () => {
         </>
     );
 };
+
+export default ScoreboardPage;
