@@ -25,7 +25,7 @@ export interface TextProps {
     align?: ITextAlign;
     icon?: ReactElement;
     cssOverrides?: any;
-    children: ReactElement | string;
+    children: React.ReactNode | string;
 }
 
 export const Text = ({
